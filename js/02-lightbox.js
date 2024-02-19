@@ -16,7 +16,7 @@ const newArray = galleryItems.map(
         </img>
         </a>
      </li>`
-);g
+);
 
 
 gallery.innerHTML = newArray.join("");
