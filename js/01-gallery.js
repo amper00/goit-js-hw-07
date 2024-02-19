@@ -21,7 +21,7 @@ gallery.addEventListener("click", (event) => {
     event.preventDefault();
   
     const lightbox = basicLightbox.create(`
-      <img src="${event.target.dataset.source}" width="800" height="600">
+       <img src="${event.target.dataset.source}" width="800" height="600">
     `);
   
     lightbox.show();
@@ -30,4 +30,3 @@ gallery.addEventListener("click", (event) => {
 
 gallery.insertAdjacentHTML("afterbegin", newArray.join(``));
 console.log(galleryItems);
-
