@@ -16,13 +16,12 @@ const newArray = galleryItems.map(
         </img>
         </a>
      </li>`
-);
+);g
 
 
-// Wstawienie elementów galerii do struktury HTML
 gallery.innerHTML = newArray.join("");
 
-// Inicjalizacja SimpleLightbox
+
 const lightbox = new SimpleLightbox('.gallery a', {
 
 
